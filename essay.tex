@@ -30,6 +30,54 @@ Credit risk is the possibility that a borrower will not meet its contractual obl
 
 \noindent To take advantage of these opportunities, however, banks must be able to answer a number of technical questions. They need to quantify the distribution of portfolio loss over a given horizon, not only its expected value but also extreme outcomes that occur with low probability. They must understand how different macroeconomic scenarios or sector-specific shocks affect this loss distribution, how changes in the portfolio mix alter concentration and diversification, and how risk-based pricing and capital allocation should reflect expected losses and the cost of holding credit risk capital. \\
 
-\noindent This essay addresses these questions by reviewing and comparing the main portfolio credit risk models used in risk management and regulation. We discuss bottom-up versus top-down approaches, default-mode versus mark-to-market frameworks, and structural versus reduced-form models, and we relate them to the regulatory capital model used in the Basel II/III Internal Ratings-Basel approach. The aim is not to provide a full mathematical treatment of each model, but to explain their assumptions, inputs and outputs, to highlight their strengths and weaknesses, and to draw clear conclusions about their suitability for different risk management purposes.
+\noindent This essay addresses these questions by reviewing and comparing the main portfolio credit risk models used in risk management and regulation. We discuss bottom-up versus top-down approaches, default-mode versus mark-to-market frameworks, and structural versus reduced-form models, and we relate them to the regulatory capital model used in the Basel II/III Internal Ratings-Basel approach. The aim is not to provide a full mathematical treatment of each model, but to explain their assumptions, inputs and outputs, to highlight their strengths and weaknesses, and to draw clear conclusions about their suitability for different risk management purposes. \\
+
+\noindent Building on these considerations, this report provides a structured overview of the main portfolio credit risk 
+models used in risk management and regulation. Following the framework presented in the Risk Management lectures, the models 
+are classified along several key dimensions: bottom-up vs. top-down approaches, default-mode vs. mark-to-market models, 
+conditional vs. unconditional models of default probability, and structural vs. reduced-form models. The aim of the report 
+is to explain the underlying assumptions, inputs, and outputs of these approaches, to highlight their respective strengths 
+and limitations, and to assess their suitability for different risk management purposes. The remainder of the paper is 
+organized as follows: ... 
+
+\section{Top-down vs. Bottom-Up Models}
+
+\noindent Portfolio credit risk models can be broadly divided into bottom-up and top-down approaches, depending on whether credit
+risk is modeled at the level of individual borrowers or directly at the level of portfolio segments. This distinction reflects 
+two fundamentally different ways of thinking about credit risk aggregation, modeling losses as the outcome of individual 
+firm-level default mechanisms, or modeling them as the result of common systematic risk factors affecting groups of exposures simultaneously. \\
+
+\noindent Bottom-up models build portfolio risk starting from the individual instrument or borrower. Each exposure is characterized by 
+borrower-specific credit risk parameters such as the probability of default, loss given default, and exposure at default, while 
+dependence across borrowers is introduced through correlated risk drivers. In this framework, portfolio losses arise from the joint 
+realization of individual default events. As emphasized in the credit risk literature, this approach is closely related to models that 
+provide an explicit economic or statistical description of default at the firm level, including structural and intensity-based 
+specifications (Lando, 2004). Aggregation across borrowers then delivers the portfolio loss distribution. \\
+
+\noindent A key advantage of bottom-up models is their high degree of granularity. They allow risk managers to measure concentration 
+risk, assess marginal risk contributions of individual exposures, and perform detailed scenario analyses at the borrower level. 
+This makes them particularly suitable for corporate loan portfolios and portfolios of traded credit instruments, where firm-level 
+information is available and economically meaningful. However, the bottom-up approach is also data-intensive and requires strong 
+assumptions regarding default dependence, which must be calibrated using limited historical default data or proxy measures such 
+as asset correlations. \\
+
+\noindent In contrast, top-down models describe credit risk directly at the level of portfolio segments, such as industries, 
+regions, or rating classes. Instead of modeling each borrower separately, these models focus on common sources of risk 
+(most notably macroeconomic conditions) that drive default rates and losses across groups of borrowers. From this perspective, 
+idiosyncratic risk is largely diversified away, and portfolio losses are primarily determined by the evolution of systematic 
+factors. As discussed by Lando (2004), such models are particularly useful when individual default mechanisms are difficult to 
+observe or estimate reliably, but aggregate default behavior exhibits a stable relationship with economic conditions. \\
+
+\noindent Top-down models are therefore especially well suited for stress testing and scenario analysis, where the objective 
+is to assess the sensitivity of portfolio losses to adverse macroeconomic developments. They are also computationally simpler and 
+less demanding in terms of input data, which makes them attractive for large, relatively homogeneous portfolios, such as retail credit 
+exposures. Their main limitation lies in the lack of borrower-level detail, which prevents a precise assessment of individual risk 
+contributions and limits their usefulness for pricing and active portfolio optimization. \\
+
+\noindent In practice, the distinction between top-down and bottom-up models highlights a fundamental trade-off between economic detail
+and tractability. Bottom-up models provide richer insights into individual credit risk and portfolio composition, while top-down models 
+offer a clearer link between credit losses and systematic risk factors. For this reason, modern risk management frameworks often combine 
+both approaches, applying them selectively depending on the portfolio structure and the specific risk management objective. \\
+
 
 \end{document}
