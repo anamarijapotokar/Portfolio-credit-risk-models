@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber essay"] 1766083184 "essay.bcf" "essay.bbl" "essay" 1766083932 0
-  "essay.bcf" 1766083932 107256 bbb7563979c1f9afdf84ee4ba713182f "pdflatex"
+["biber essay"] 1766083184 "essay.bcf" "essay.bbl" "essay" 1766083948 0
+  "essay.bcf" 1766083947 107256 bbb7563979c1f9afdf84ee4ba713182f "pdflatex"
   (generated)
   "essay.bbl"
   "essay.blg"
   (rewritten before read)
-["pdflatex"] 1766083932 "/Users/anamariapotokar/Desktop/Risk Management/Portfolio-credit-risk-models/essay.tex" "essay.pdf" "essay" 1766083932 0
-  "/Users/anamariapotokar/Desktop/Risk Management/Portfolio-credit-risk-models/essay.tex" 1766083932 12816 5861af9f911422eea35a9ade7563979e ""
+["pdflatex"] 1766083947 "/Users/anamariapotokar/Desktop/Risk Management/Portfolio-credit-risk-models/essay.tex" "essay.pdf" "essay" 1766083948 0
+  "/Users/anamariapotokar/Desktop/Risk Management/Portfolio-credit-risk-models/essay.tex" 1766083946 21653 6a80e127b428b78c79915d66dc80a188 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -90,11 +90,11 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1680265421 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1680265411 7883480 918ef36eafab6b91b5cf0770e155a1d2 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "essay.aux" 1766083932 1113 d792236950898dd48dbea9460dd0d494 "pdflatex"
+  "essay.aux" 1766083947 1374 3e2c50df22b154f97b21cfe2f8332f51 "pdflatex"
   "essay.bbl" 1766083189 0 d41d8cd98f00b204e9800998ecf8427e "biber essay"
-  "essay.out" 1766083932 542 a1335c50b71ce8af11c265bfe0598de9 "pdflatex"
-  "essay.run.xml" 1766083932 2231 6e91989a9ef0448d208c1308c8a6ced7 "pdflatex"
-  "essay.tex" 1766083932 12816 5861af9f911422eea35a9ade7563979e ""
+  "essay.out" 1766083947 981 d8130ce1c52ea9fb551b03b1dee09d13 "pdflatex"
+  "essay.run.xml" 1766083947 2231 6e91989a9ef0448d208c1308c8a6ced7 "pdflatex"
+  "essay.tex" 1766083946 21653 6a80e127b428b78c79915d66dc80a188 ""
   (generated)
   "essay.aux"
   "essay.bcf"
