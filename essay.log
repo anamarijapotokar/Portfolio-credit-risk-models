@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.31)  21 DEC 2025 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.31)  21 DEC 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -679,70 +679,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 126--133
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 155--161
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 175--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 198--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 [8] (./essay.aux)
 Package rerunfilecheck Info: File `essay.out' has not changed.
-(rerunfilecheck)             Checksum: E1944221A3D17B933066FCEBDCA428AA;1981.
+(rerunfilecheck)             Checksum: 70A96B40DA5DE52960F25A5C9F1DFBBE;1435.
 Package logreq Info: Writing requests to 'essay.run.xml'.
 \openout1 = `essay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17871 strings out of 476025
- 316011 string characters out of 5790017
+ 17867 strings out of 476025
+ 315971 string characters out of 5790017
  1863388 words of memory out of 5000000
- 38141 multiletter control sequences out of 15000+600000
+ 38139 multiletter control sequences out of 15000+600000
  514710 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,76p,997b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,76p,960b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on essay.pdf (8 pages, 70735 bytes).
+Output written on essay.pdf (8 pages, 71736 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
