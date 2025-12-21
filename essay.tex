@@ -138,17 +138,106 @@ They are well suited for short to medium term risk horizons and for risk measure
 
 \section{Regulatory perspective: Basel II/III and the IRB capital model}
 
-\noindent Portfolio credit risk modeling is not only a risk management tool but also a foundation of modern banking regulation. The Basel II framework introduced the Internal Ratings-Based approach, which links regulatory capital requirements to key credit risk parameters such as probability of default, loss given default, exposure at default, and maturity. Basel III retained the Internal Ratings-Based logic while strengthening the overall capital regime through higher quality capital, capital buffers, and additional constraints designed to improve resilience. \\
+\noindent Portfolio credit risk modeling is not only a tool for internal risk management but also one of the building blocks of modern banking regulation. 
+The Basel framework is motivated by a simple concern: banks must be able to absorb credit losses in adverse states of the world while continuing to function. 
+Because credit losses are typically modest in normal times but can rise sharply and simultaneously in downturns, regulation has to focus on portfolio-wide outcomes 
+and on the tail of the loss distribution rather than on the risk of a single loan in isolation. \\
 
-\noindent A central feature of the Internal Ratings-Based framework is that it relies on a stylized portfolio model in which default dependence is driven by a common systematic environment. The regulatory approach is designed to be implementable across institutions and sufficiently conservative for solvency purposes. In broad terms, regulatory capital is intended to cover unexpected loss, while expected loss is assumed to be covered through pricing, provisioning, and reserves. \\
+\noindent Basel II formalized this portfolio perspective through the Internal Ratings-Based approach. Under Internal Ratings-Based, regulatory capital is linked to a 
+small set of key credit risk parameters: the probability of default, loss given default, exposure at default, and maturity. The idea is to allow bank-specific 
+risk assessments to matter, but within a standardized and conservative portfolio framework that produces comparable capital requirements across institutions. 
+A central feature of this framework is that default dependence is driven by a common systematic environment, which captures the fact that defaults cluster when 
+macroeconomic conditions deteriorate. \\
 
-\noindent The regulatory framework provides transparency and comparability, but it also has limitations. Its simplifying assumptions are less appropriate for concentrated corporate portfolios, where single-name exposures remain material, and a single systematic driver may not fully capture sectoral concentration or multi-dimensional macroeconomic shocks. Moreover, regulatory inputs and constraints necessarily impose standardization, which can lead to differences between regulatory and internal economic capital. Finally, to the extent that some inputs become more sensitive to the cycle, capital requirements may become procyclical, which is one reason Basel III introduced buffers intended to be built up in good times and used in stress periods.
+\noindent Within this setup, the Basel logic distinguishes between expected loss and unexpected loss. Expected loss represents the average credit 
+loss a bank anticipates over the horizon, given the characteristics of its borrowers and historical experience. In principle, expected loss should be covered through 
+pricing (interest margins), loan loss provisions, and reserves. Unexpected loss refers to losses that arise in worse-than-average conditions and reflect both uncertainty 
+and the joint nature of defaults in stress. Regulatory capital is designed primarily to absorb these unexpected losses and thereby protect depositors and the stability of 
+the financial system. \\
+
+\noindent This distinction is closely connected to provisioning and accounting. Modern approaches to provisioning emphasize earlier recognition of credit deterioration and 
+forward-looking loss estimates. In practice, provisioning and capital interact: increasing provisions reduces profits and equity in the short run, but it can also reduce the 
+portion of realized credit losses that would otherwise have to be absorbed by capital. This interaction becomes especially important in downturns, when default rates rise and 
+banks simultaneously face pressure to increase provisions. \\
+
+\noindent Basel III retained the core Internal Ratings-Based logic but strengthened the overall regime after the global financial crisis. The reforms did not reject model-based capital, but they 
+reduced reliance on any single model output by tightening the definition of eligible capital, increasing required buffers, and adding constraints that sit alongside risk-weighted 
+requirements. The broader lesson is that even a well-designed portfolio model can be undermined by optimistic inputs, incentives to minimize risk weights, or structural changes in 
+credit markets. Additional buffers and constraints are therefore intended to improve resilience when losses materialize in conjunction with funding stress and wider market disruptions. \\
+
+\noindent Despite its benefits, the regulatory framework also has well-known limitations. The stylized assumptions that support tractability and comparability are less appropriate 
+for concentrated corporate portfolios, where single-name exposures remain material. Likewise, a single systematic driver may be too simple to capture sectoral concentration, geographic 
+differences, and multi-dimensional macroeconomic shocks. Another challenge is calibration: regulatory approaches necessarily rely on parameter estimates in a rare-event setting, and 
+default and recovery data are limited precisely in the part of the distribution that matters most for solvency. \\
+
+\noindent A final concern is cyclicality. If key inputs become too sensitive to current conditions, capital requirements can rise sharply in downturns, when banks are least able 
+to raise new capital and when lending is most valuable for the real economy. The buffer system and supervisory judgment are partly designed to address this tension, but it remains a central 
+theme in both regulation and internal practice. Overall, the Internal Ratings-Based framework is best viewed as a robust and standardized baseline for solvency, rather than as a complete description of a bank’s 
+credit risk under all conditions.
 
 \section{Practical considerations and model risk}
 
-\noindent Implementing portfolio credit risk models in practice requires data, estimation choices, and governance that can materially influence results. Estimation of probability of default is often challenged by limited default observations, especially for high-grade or low-default portfolios. Estimation of loss given default must address recovery uncertainty and the fact that recoveries may worsen in downturns. Exposure at default is particularly relevant for revolving products and credit lines, where exposures may increase as borrower quality deteriorates. \\
+\noindent Implementing portfolio credit risk models in practice requires far more than selecting a model class. The results depend critically on data quality, parameter 
+estimation choices, portfolio segmentation decisions, and governance. In real institutions, the modeling process is therefore inseparable from questions of 
+measurement, validation, and model risk management. \\
 
-\noindent Another major issue is model risk. Different assumptions about dependence, recovery behavior, and calibration windows can produce substantially different tail loss estimates, even if they agree on average losses. For this reason, robust credit risk management typically combines model-based measurement with scenario analysis, sensitivity checks, benchmarking, and expert judgment rather than relying mechanically on a single model output.
+\noindent Data and parameter estimation are the first challenge. Probabilities of default must often be estimated from limited historical default experience, 
+especially for high-grade portfolios where defaults are rare. This makes estimates noisy and sensitive to the chosen time window, the treatment of missing information, 
+and the use of external data sources. Loss given default is also difficult: recoveries depend on seniority, collateral, legal environment, and the economic cycle. 
+Empirically, recoveries tend to be lower in downturns, which means that assuming a constant loss given default can understate tail risk. Exposure at default introduces another source 
+of uncertainty, particularly for revolving facilities and credit lines, where utilization can rise exactly when borrower quality deteriorates. \\
+
+\noindent A second challenge is portfolio mapping and segmentation. Many models require grouping exposures by rating, industry, geography, or product type. 
+These choices affect dependence and concentration estimates. A segmentation that is too coarse can hide concentrations, while segmentation that is too fine can create 
+unstable parameter estimates. This is one reason why large institutions frequently maintain multiple portfolio views, such as a regulatory segmentation, a business 
+segmentation for management, and a stress testing segmentation aligned with macro drivers. \\
+
+\noindent Dependence modeling is often the dominant driver of extreme loss estimates. Small changes in asset correlation assumptions, factor loadings, or tail 
+dependence choices can materially change high-quantile risk measures. Because default clustering is most visible in crises, historical data may not provide enough 
+information to precisely calibrate tail behavior. For this reason, dependence parameters are often treated conservatively and are supplemented with expert judgment, 
+benchmarking, and scenario-based overlays. \\
+
+\noindent These issues motivate a strong emphasis on model validation. Validation typically includes checks of conceptual soundness, benchmarking against 
+alternative models, sensitivity analysis, and outcome-based reviews where feasible. For credit risk, outcome validation is challenging because true tail events occur 
+rarely, so backtesting has limited statistical power. As a result, validation often focuses on stability, plausibility under stress, and consistency with observed 
+credit dynamics rather than narrow statistical backtests alone. \\
+
+\noindent Finally, institutions must manage model risk and governance. Portfolio credit risk models influence pricing, limits, capital allocation, and 
+strategic portfolio decisions, so errors can have significant consequences. Model governance therefore typically includes documentation of assumptions, independent review, 
+controlled change processes, and clear communication of limitations. Good practice also requires that senior management understands that model outputs are not facts, 
+but conditional estimates that reflect assumptions and uncertainty. \\
+
+\noindent In this sense, robust credit risk management combines models with stress testing, sensitivity analysis, and judgment. Models are essential for consistency and 
+scale, but they are most valuable when they support decision-making, highlight concentrations, and provide a transparent framework for discussing credit risk under 
+normal and adverse conditions.
+
+\section{Prominent portfolio credit risk frameworks in practice}
+
+\noindent The classifications discussed above are not only theoretical; they correspond to a set of well-known frameworks that shaped industry practice. 
+A short comparison helps clarify how different modeling choices translate into different use cases. \\
+
+\noindent CreditMetrics is the canonical mark-to-market framework. Its central feature is the explicit modeling of rating migrations and the 
+revaluation of exposures under different credit quality states. As a result, CreditMetrics is most naturally aligned with portfolios of traded credit instruments 
+and risk measurement over horizons where changes in spreads and rating quality are economically meaningful. The model is particularly useful for value-at-risk style 
+risk reporting and for understanding how the distribution of portfolio value changes is affected by credit quality transitions. \\
+
+\noindent CreditRisk+ is a canonical default-mode approach. It abstracts from spread changes and focuses on default counts and default losses. 
+Its actuarial perspective and computational efficiency made it attractive for economic capital calculations and for large portfolios where the primary concern is the 
+distribution of default losses rather than interim mark-to-market fluctuations. Because it is default-focused, it is often discussed in contexts where defaults are 
+the dominant economic loss mechanism and where valuation changes are either not observed or not the main management objective. \\
+
+\noindent CreditPortfolioView represents a conditional, macro-linked perspective. Instead of treating default probabilities as fixed, it emphasizes 
+that default and migration behavior changes systematically with macroeconomic conditions. This makes it especially useful for stress testing and scenario analysis, 
+where the goal is to translate a macro scenario into portfolio-level loss implications. The framework highlights the importance of linking portfolio risk to economic 
+drivers that can be monitored and communicated. \\
+
+\noindent Finally, the Basel Internal Ratings-Based framework can be seen as a standardized regulatory application of a conditional factor approach, designed to be 
+consistent and scalable across institutions. Its purpose is not to be the most detailed model, but to provide a conservative and transparent baseline for determining 
+capital requirements. In practice, institutions often manage their portfolios using a richer internal framework while still mapping results to the regulatory structure 
+for reporting and compliance. \\
+
+\noindent Taken together, these frameworks illustrate that portfolio credit risk modeling is not about a single ``best'' model. Instead, different models exist because 
+institutions face different objectives: valuation and risk reporting, default loss capital estimation, stress testing, regulatory compliance, and portfolio optimization.
 
 \section{Conclusion}
 
