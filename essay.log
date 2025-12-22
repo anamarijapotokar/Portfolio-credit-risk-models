@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.31)  21 DEC 2025 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.31)  22 DEC 2025 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,14 +581,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-[1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
+[1
 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 37--41
 
  []
@@ -778,12 +778,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--223
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 224--228
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
@@ -808,13 +808,13 @@ Package logreq Info: Writing requests to 'essay.run.xml'.
 Here is how much of TeX's memory you used:
  17875 strings out of 476025
  316046 string characters out of 5790017
- 1863388 words of memory out of 5000000
+ 1864388 words of memory out of 5000000
  38142 multiletter control sequences out of 15000+600000
  514710 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,76p,1015b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on essay.pdf (10 pages, 79324 bytes).
+Output written on essay.pdf (10 pages, 79055 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
