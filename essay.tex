@@ -7,8 +7,10 @@
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{csquotes}
-\usepackage{biblatex}
 \usepackage{array}
+\usepackage{url}
+\usepackage[backend=biber,style=authoryear]{biblatex} % or another style
+\addbibresource{sources.bib}
 \titlelabel{\thetitle.\quad}
 \geometry{a4paper, margin=2.5cm}
 
@@ -33,6 +35,8 @@ Credit risk is the possibility that a borrower will not meet its contractual obl
 \noindent This essay addresses these questions by reviewing and comparing the main portfolio credit risk models used in risk management and regulation. We discuss bottom-up versus top-down approaches, default-mode versus mark-to-market frameworks, and structural versus reduced-form models, and we relate them to the regulatory capital model used in the Basel II/III Internal Ratings-Basel approach. The aim is not to provide a full mathematical treatment of each model, but to explain their assumptions, inputs and outputs, to highlight their strengths and weaknesses, and to draw clear conclusions about their suitability for different risk management purposes. \\
 
 \section{Top-down vs. Bottom-Up models}
+
+\nocite{*}
 
 \noindent Portfolio credit risk models can be broadly divided into bottom-up and top-down approaches, depending on whether credit
 risk is modeled at the level of individual borrowers or directly at the level of portfolio segments. This distinction reflects 
@@ -244,5 +248,7 @@ institutions face different objectives: valuation and risk reporting, default lo
 \noindent Portfolio credit risk models provide a structured way to translate borrower-level credit risk into portfolio-level loss distributions and risk measures. The most important modeling choices reflect trade-offs rather than purely technical preferences. Top-down and bottom-up approaches balance tractability against borrower-level detail; default-mode and mark-to-market models differ in whether they focus only on default losses or also on valuation changes due to migration and spread movements; unconditional and conditional models differ in whether they aim for a stable long-run view of risk or an explicitly state-dependent, scenario-sensitive view; and structural and reduced-form models differ in whether they explain default through borrower fundamentals or treat it as a stochastic event calibrated to market data. \\
 
 \noindent In practice, institutions often use multiple models in parallel because these approaches capture complementary dimensions of portfolio credit risk. The regulatory framework provides an influential benchmark, but effective risk management also requires recognizing uncertainty, testing sensitivity to assumptions, and understanding how portfolio composition and systematic conditions interact to shape extreme loss outcomes.
+
+\printbibliography
 
 \end{document}

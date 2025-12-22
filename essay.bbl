@@ -1,0 +1,123 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ecb2007crtedubanks}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc0835c66c6644c8a6ca0239bce9cc73}{%
+           family={{European Central Bank}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc0835c66c6644c8a6ca0239bce9cc73}
+      \strng{fullhash}{fc0835c66c6644c8a6ca0239bce9cc73}
+      \strng{bibnamehash}{fc0835c66c6644c8a6ca0239bce9cc73}
+      \strng{authorbibnamehash}{fc0835c66c6644c8a6ca0239bce9cc73}
+      \strng{authornamehash}{fc0835c66c6644c8a6ca0239bce9cc73}
+      \strng{authorfullhash}{fc0835c66c6644c8a6ca0239bce9cc73}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Stability Review}
+      \field{month}{6}
+      \field{note}{Special Feature C}
+      \field{title}{Credit risk transfer by {EU} banks: Activities, risks and risk management}
+      \field{year}{2007}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ecb.europa.eu/pub/pdf/fsr/art/ecb.fsrart200706_03.en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ecb.europa.eu/pub/pdf/fsr/art/ecb.fsrart200706_03.en.pdf
+      \endverb
+    \endentry
+    \entry{lando2004creditrisk}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ace12099affa609fb24ef3c53abe3c0c}{%
+           family={Lando},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{ace12099affa609fb24ef3c53abe3c0c}
+      \strng{fullhash}{ace12099affa609fb24ef3c53abe3c0c}
+      \strng{bibnamehash}{ace12099affa609fb24ef3c53abe3c0c}
+      \strng{authorbibnamehash}{ace12099affa609fb24ef3c53abe3c0c}
+      \strng{authornamehash}{ace12099affa609fb24ef3c53abe3c0c}
+      \strng{authorfullhash}{ace12099affa609fb24ef3c53abe3c0c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Credit Risk Modeling: Theory and Applications}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{wilson1998portfoliocreditrisk}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f64c8e23bf64bc49bf485bbd2ac4c30}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f64c8e23bf64bc49bf485bbd2ac4c30}
+      \strng{fullhash}{5f64c8e23bf64bc49bf485bbd2ac4c30}
+      \strng{bibnamehash}{5f64c8e23bf64bc49bf485bbd2ac4c30}
+      \strng{authorbibnamehash}{5f64c8e23bf64bc49bf485bbd2ac4c30}
+      \strng{authornamehash}{5f64c8e23bf64bc49bf485bbd2ac4c30}
+      \strng{authorfullhash}{5f64c8e23bf64bc49bf485bbd2ac4c30}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Federal Reserve Bank of New York Economic Policy Review}
+      \field{number}{3}
+      \field{title}{Portfolio Credit Risk}
+      \field{volume}{4}
+      \field{year}{1998}
+      \true{nocite}
+      \field{pages}{71\bibrangedash 82}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://www.newyorkfed.org/medialibrary/media/research/epr/98v04n3/9810wils.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.newyorkfed.org/medialibrary/media/research/epr/98v04n3/9810wils.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
